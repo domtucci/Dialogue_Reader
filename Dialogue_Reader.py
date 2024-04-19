@@ -30,7 +30,7 @@ def main(): #GUI Window
 
     data = json.load(open(json_file))
 
-    # Extract information from the "Results" dictionary
+    # Extract information from the "Results" list
     results = data["Results"]
     result_data = []
     for response in results:
